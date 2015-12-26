@@ -1,4 +1,7 @@
+class tree
+{
 
+};
 
 class bst :public tree
 {
@@ -17,9 +20,10 @@ public:
 	//bst find(bst *root, int key);
 	bst* find(bst *root, int key);
 	void findWrapper(int key);
-	bst minimum(bst*root);
-	bst maximum(bst*root);
+	bst minimum(bst *root);
+	bst maximum(bst *root);
 	void delNodeWrapper(int key);
-	void inorder(bst*root);
+	void inorder(bst *root);
 	bst* find1(bst *root, int key);
 };
+
